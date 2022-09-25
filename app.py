@@ -10,9 +10,4 @@ ip =st.text_input('Enter the text :')
 op= model_nb.predict([ip])
 if st.button('Predict'):
   st.title([op])
-
-  
-  
-  
-  
   
